@@ -1,0 +1,14 @@
+Wed Jan 17 20:43:06 PST 2024
+USER: christinachen
+HOME: /Users/christinachen
+SHELL: /bin/zsh
+WORKING DIRECTORY: /Users/christinachen/Code/mcb185_homework
+PATH: /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/christinachen/Library/Python/3.9/bin
+Darwin Christinas-MacBook-Pro-9.local 21.6.0 Darwin Kernel Version 21.6.0: Thu Nov  9 00:38:19 PST 2023; root:xnu-8020.240.18.705.10~1/RELEASE_X86_64 x86_64
+Python 3.11.7
+/Users/christinachen/Code
+/Users/christinachen/Code/mcb185_homework
+/Users/christinachen/Code/mcb185_homework/.git
+/Users/christinachen/Code/MCB185
+/Users/christinachen/Code/MCB185/.git
+/Users/christinachen/Code/MCB185/data
