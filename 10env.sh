@@ -1,5 +1,5 @@
 echo "USER: $USER"
 echo "HOME: $HOME"
 echo "SHELL: $SHELL"
-echo "WORKING DIRECTORY: $PWD"
+echo "PWD: $PWD"
 echo "PATH: $PATH"
