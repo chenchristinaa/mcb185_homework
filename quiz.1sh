@@ -1,2 +1,5 @@
 Real Name: Christina Chen
 User Name: christinachen
+
+gunzip -c ../MCB185/data/dictionary.gz | grep "a" | grep -v "[^muocfta]" | 
+grep -E ".{4,100}"
