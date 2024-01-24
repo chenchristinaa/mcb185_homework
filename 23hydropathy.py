@@ -3,34 +3,29 @@
 import sys
 
 def kdhydro(x):
-	if x == 'a': print('1.80')
-	if x == 'b': print('Not an amino acid.')
-	if x == 'c': print('2.50')
-	if x == 'd': print('-3.50')
-	if x == 'e': print('-3.50')
-	if x == 'f': print('2.80')
-	if x == 'g': print('-0.40')
-	if x == 'h': print('-3.20')
-	if x == 'i': print('4.50')
-	if x == 'j': print('Not an amino acid.')
-	if x == 'k': print('-3.90')
-	if x == 'l': print('3.80')
-	if x == 'm': print('1.90')
-	if x == 'n': print('-3.50')
-	if x == 'o': print('Not an amino acid.')
-	if x == 'p': print('-1.60')
-	if x == 'q': print('-3.50')
-	if x == 'r': print('-4.50')
-	if x == 's': print('-0.80')
-	if x == 't': print('-0.70')
-	if x == 'u': print('Not an amino acid.')
-	if x == 'v': print('4.20')
-	if x == 'w': print('-.90')
-	if x == 'x': print('Not an amino acid.')
-	if x == 'y': print('-1.30')
-	if x == 'z': print('Not an amino acid.')
+	if x == 'a': return 1.80
+	if x == 'c': return 2.50
+	if x == 'd': return -3.50
+	if x == 'e': return -3.50
+	if x == 'f': return 2.80
+	if x == 'g': return -0.40
+	if x == 'h': return -3.20
+	if x == 'i': return 4.50
+	if x == 'k': return -3.90
+	if x == 'l': return 3.80
+	if x == 'm': return 1.90
+	if x == 'n': return -3.50
+	if x == 'p': return -1.60
+	if x == 'q': return -3.50
+	if x == 'r': return -4.50
+	if x == 's': return -0.80
+	if x == 't': return -0.70
+	if x == 'v': return 4.20
+	if x == 'w': return -.90
+	if x == 'y': return -1.30
+	else:        sys.exit('Error: Not an amino acid')
 	
-kdhydro('a')
-kdhydro('c')
-kdhydro('r')
-kdhydro('z')
+print(kdhydro('a'))
+print(kdhydro('c'))
+print(kdhydro('r'))
+print(kdhydro('z'))
