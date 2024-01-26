@@ -11,7 +11,7 @@ def shan(a, t, g, c):
 	tfreq = t / (a + t + g + c)
 	gfreq = g / (a + t + g + c)
 	cfreq = c / (a + t + g + c)
-	if afreq == 0: sys.exit('Error: Frequency cannot be zero')	
+	if afreq == 0: sys.exit('Error: Frequency cannot be zero')
 	aexp  = afreq * math.log2(afreq)
 	if tfreq == 0: sys.exit('Error: Frequency cannot be zero')
 	texp  = tfreq * math.log2(tfreq)
