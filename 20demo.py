@@ -70,7 +70,7 @@ print(negpos(-4))
 def areas(a, b):
 	assert(a > 0)
 	assert(b > 0)
-	return (a * b)
+	return a * b
 
 print(areas(5, 10))
 
