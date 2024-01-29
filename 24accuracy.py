@@ -5,10 +5,10 @@
 import sys
 
 """
-tp is true positive
-fp false positive
-tn is true negative
-fn is false positive
+tp is true  positive
+fp is false positive
+tn is true  negative
+fn is false negative
 """
 
 def stats(tp, fp, tn, fn):
