@@ -1,10 +1,14 @@
 # Authors: Christina, Clarissa
 
-## Task 1
-
 pi = 1
-for n in range(3, 10000, 4):
-	set = - (1 / n) + (1 / (n + 2))
-	pi = pi + set
-pi = pi * 4
-print(pi)
+pie = 3
+for n in range(2, 100, 4):
+	mark = (4 / (n * (n + 1) * (n + 2))) - (4 / ((n + 2) * (n + 3) * (n + 4)))
+	pie = pie + mark
+	print(pie, end=" ")
+
+	tab = - (1 / (n + 1)) + (1 / (n + 3))
+	pi = pi + tab
+	last = pi * 4
+	print(last)
+	
