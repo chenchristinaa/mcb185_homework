@@ -34,8 +34,7 @@ for i in range(statroll):
 			death += 1
 			failure = 0
 			totalrolls += 1
-	#print(f'failure:{failure}\nsuccess:{success}\nrevive:{revive}\ndeath:{death}\nstable:{stable}')
-
+			
 print(f'death:\t{death / totalrolls}')
 print(f'stable:\t{stable  / totalrolls}')
 print(f'revive:\t{revive  / totalrolls}')
