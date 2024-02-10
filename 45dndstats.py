@@ -16,7 +16,7 @@ for j in range(statrolls):
 	total = r1 + r2 + r3
 	rolls += 1
 	totalstat += total
-print(f'3D6:\naverage stat: {totalstat / rolls}')
+print(f'3D6: {totalstat / rolls}')
 
 ## 3D6r1: roll 3 six-sided dice, but re-roll any 1s
 
@@ -35,7 +35,7 @@ for j in range(statrolls):
 	total = r1 + r2 + r3
 	rolls += 1
 	totalstat += total
-print(f'3D6r1:\naverage stat: {totalstat / rolls}')
+print(f'3D6r1:{totalstat / rolls}')
 
 ## 3D6x2: roll pairs of six-sided 3 times, taking the maximum each time
 
@@ -50,7 +50,7 @@ for j in range(statrolls):
 		else:       total += r2
 	rolls += 1
 totalstat += total
-print(f'3D6x2:\naverage stat: {totalstat / rolls}')
+print(f'3D6x2: {totalstat / rolls}')
 
 ## 4D6d1: roll 4 six-sided dice, dropping the lowest die roll
 
@@ -73,4 +73,4 @@ for j in range(statrolls):
 		total = r1 + r2 + r3
 rolls += 1
 totalstat += total
-print(f'4D6d1:\naverage stat: {totalstat / rolls}')
+print(f'4D6d1: {totalstat / rolls}')
