@@ -19,16 +19,16 @@ for i in range(statroll):
 			death += 1
 			failure = 0
 			totalrolls += 1
-	if r1 == 20:
+	elif r1 == 20:
 		revive += 1
 		totalrolls += 1
-	if r1 >= 10 and r1 < 20:
+	elif r1 >= 10:
 		success += 1
 		if success >= 3:
 			stable += 1
 			success = 0
 			totalrolls += 1
-	if r1 < 10 and r1 > 1:
+	elif r1 < 10:
 		failure += 1
 		if failure >= 3:
 			death += 1
