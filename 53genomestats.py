@@ -48,11 +48,11 @@ print('standard deviation:', sd)
 i = len(lengths) / 2
 if i % 1 == 0:
 	i = int(i)
-	f = int(i + 1)
+	f = int(i - 1)
 	median = (lengths[i] + lengths[f]) / 2
 	print('medians:', median)
 else:
-	f = int(i + 0.5)
+	f = int(i - 0.5)
 	print('median:', lengths[f])
 
 
