@@ -11,15 +11,12 @@ people = int(sys.argv[3])
 
 matches = 0
 for x in range(trials):
-	cal = ['0']
-	cal.append(random.randint(1, days + 1))
+	cal = []
 	for i in range(people):
-		d = random.randint(1, days + 1)
-		for j in range(len(cal)):
-			if d == cal[j]:
-				matches +=1
-				break
-			else:
-				cal.append(d)
-total = matches / trials
-print(total)
+		d = random.randint(0, days)
+		if d in cal:
+			matches +=1
+			break
+		else:
+			cal.append(d)
+print(matches / trials)
