@@ -15,7 +15,7 @@ for x in range(trials):
 	for i in range(people):
 		d = random.randint(0, days)
 		if d in cal:
-			matches +=1
+			matches += 1
 			break
 		else:
 			cal.append(d)
