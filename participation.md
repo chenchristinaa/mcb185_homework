@@ -16,8 +16,8 @@ Participation
 
 | U | AC | VP | AQ | OC | SH | SA | CA | OA | Tot | Notes
 |:-:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:-------
-| 5 |  2 |    |    |  2 |    |  1 |  1 | 1  |   7 | 1   
-| 6 |    |    |    |    |    |    |    |    |     |
+| 5 |  2 |    |    |  2 |    |  1 |  1 |  1 |   7 | 1   
+| 6 |  2 |    |    |  2 |    |  1 |    |  2 |   7 | 1, 2
 | 7 |    |    |    |    |    |    |    |    |     |
 | 8 |    |    |    |    |    |    |    |    |     |
 | 9 |    |    |    |    |    |    |    |    |     |
@@ -25,4 +25,4 @@ Participation
 Notes:
 
 1. Active on Discord (answering and/or asking questions)
-2. 
+2. Let Korf know Unit 6 wasn't on Canvas
