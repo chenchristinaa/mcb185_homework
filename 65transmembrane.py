@@ -1,7 +1,5 @@
 # 65transmembrane.py by Christina Chen
 
-# python3 65transmembrane.py ../MCB185/data/GCF_000005845.2_ASM584v2_protein.faa.gz
-
 import sys
 import mcb185
 import avgkdh
