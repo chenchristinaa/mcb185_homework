@@ -23,7 +23,7 @@ def shan(a, t, g, c):
 	return entropy
 
 
-print(shan(1, 2, 3, 4))
-print(shan(5, 8, 2, 2))
+print(shan(9, 9, 2, 1))
+print(shan(3, 9, 4, 4))
 print(shan(4, 4, 1, 1))
 print(shan(1, 1, 1, 1))

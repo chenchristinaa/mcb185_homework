@@ -4,6 +4,7 @@ import mcb185
 import sys
 
 # python3 60demo.py ../MCB185/data/A.thaliana.fa.gz
+
 for defline, seq in mcb185.read_fasta(sys.argv[1]):
 	defwords = defline.split()
 	name = defwords[0]

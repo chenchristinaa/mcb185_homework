@@ -1,4 +1,4 @@
-# 61 skewer.py by Christina Chen
+# 61skewer.py by Christina Chen
 
 import dogma
 
