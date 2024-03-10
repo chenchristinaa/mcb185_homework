@@ -1,6 +1,6 @@
 # 74genefinder.py by Christina Chen
 
-# Authors: Christina Chen, Ian Korf, 
+# Authors: Christina Chen, Ian Korf, Amina
 
 # python3 74genefinder.py ecoli.fa.gz 300 | sort -n -k 4
 
