@@ -90,3 +90,16 @@ def gc_skew(seq):
 	g = seq.count('G')
 	if c + g == 0: return 0
 	return (g - c) / (g + c)
+
+def tm(seq):
+	a = 0
+	t = 0
+	g = 0
+	c = 0
+	for nt in seq:
+		if nt == 'A': a += 1
+		if nt == 'T': t += 1
+		if nt == 'G': g += 1
+		if nt == 'C': c += 1
+	if a + t + g + c <= 13: return (a + t) * 2 + (g + c) * 4
+	if a + t + g + c >  13: return 64.9 + 41 * (g + c - 16.4) / (a + t + g + c)
